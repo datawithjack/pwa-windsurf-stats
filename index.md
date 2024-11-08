@@ -1,29 +1,30 @@
 <style>
-  /* Ensure full-width layout */
+  /* Remove default padding and margins */
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevents scrolling and removes white space */
+  }
+
   .container-lg {
     margin: 0 !important;
     padding: 0 !important;
-    max-width: 100% !important;
-    width: 100% !important;
-    height: 100vh; /* Full viewport height */
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Prevent scrolling */
+  }
+
+  .container-lg h1 {
+    display: none !important; /* Hide the title */
   }
 
   iframe {
-    display: block;
-    margin: 0 auto;
     border: none;
-    width: 100%; /* Full page width */
-    height: 100%; /* Full page height */
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Prevent page scrollbars */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
   }
 </style>
 
