@@ -12,12 +12,14 @@
     margin: 0 auto;
     border: none;
     width: 100%; /* Adjust iframe width */
-    height: 90vh; /* Optional: Make it responsive to viewport height */
+    height: 100vh; /* Fill the viewport height */
   }
 
-  /* Stronger selector to hide the title */
-  .container-lg h1 {
-    display: none !important;
+  /* Remove white space at the bottom */
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden; /* Prevent extra scrolling */
   }
 </style>
 
