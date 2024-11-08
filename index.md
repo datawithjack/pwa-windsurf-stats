@@ -1,37 +1,25 @@
 <style>
-  /* Stronger selectors and use of !important */
-  .md-container {
-    max-width: none !important;
+  /* Ensure full-width layout */
+  .container-lg {
     margin: 0 !important;
     padding: 0 !important;
-  }
-  .md-main {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  .md-sidebar {
-    display: none !important;
-  }
-  .md-content {
-    margin: 0 auto !important;
-    max-width: none !important;
-    padding: 0 !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    min-height: 100vh !important; /* Center vertically */
+    max-width: 100% !important;
+    width: 100% !important;
   }
 
   iframe {
-    border: none !important; /* Remove border if any */
+    display: block;
+    margin: 0 auto;
+    border: none;
+    width: 100%; /* Adjust iframe width */
+    height: 90vh; /* Optional: Make it responsive to viewport height */
   }
 </style>
 
-<iframe 
-    title="POZO Report Wave & Slalom v5 Wave Only" 
-    width="600" 
-    height="373.5" 
-    src="https://app.powerbi.com/view?r=eyJrIjoiM2I4MWJhYjQtMTdmMC00OGE2LTk3MWItMzMyNTg0NTg1MTJlIiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" 
-    frameborder="0" 
-    allowfullscreen="true">
-</iframe>
+<div class="container-lg">
+  <iframe 
+      title="POZO Report Wave & Slalom v5 Wave Only" 
+      src="https://app.powerbi.com/view?r=eyJrIjoiM2I4MWJhYjQtMTdmMC00OGE2LTk3MWItMzMyNTg0NTg1MTJlIiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" 
+      allowfullscreen="true">
+  </iframe>
+</div>
