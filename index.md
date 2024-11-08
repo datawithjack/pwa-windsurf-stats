@@ -1,1 +1,7 @@
+<style>
+  .md-grid {
+    max-width: 1440px;
+  }
+</style>
+
 <iframe title="POZO Report Wave & Slalom v5 Wave Only" width="2000" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiM2I4MWJhYjQtMTdmMC00OGE2LTk3MWItMzMyNTg0NTg1MTJlIiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" frameborder="0" allowFullScreen="true"></iframe>
