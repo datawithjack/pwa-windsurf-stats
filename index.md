@@ -5,21 +5,25 @@
     padding: 0 !important;
     max-width: 100% !important;
     width: 100% !important;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent scrolling */
   }
 
   iframe {
     display: block;
     margin: 0 auto;
     border: none;
-    width: 100%; /* Adjust iframe width */
-    height: 100vh; /* Fill the viewport height */
+    width: 100%; /* Full page width */
+    height: 100%; /* Full page height */
   }
 
-  /* Remove white space at the bottom */
   body {
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow: hidden; /* Prevent extra scrolling */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent page scrollbars */
   }
 </style>
 
