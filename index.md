@@ -1,38 +1,41 @@
 <style>
-  /* General page layout adjustments */
+  /* General page layout */
   body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     display: flex;
+    flex-direction: row; /* Horizontal layout */
     overflow: hidden; /* Prevents scrollbars */
     font-family: Arial, sans-serif;
   }
 
-  /* Sidebar styling */
-  .sidebar {
+  /* Sidebar container */
+  .sidebar-container {
     width: 300px; /* Fixed width for the sidebar */
     background-color: #f8f9fa; /* Light background for contrast */
     padding: 20px;
     box-sizing: border-box;
-    overflow-y: auto; /* Allow scrolling in the sidebar if needed */
+    overflow-y: auto; /* Enable scrolling for overflow content */
   }
 
-  .sidebar h1 {
+  .sidebar-container h1 {
     margin: 0 0 10px 0;
     font-size: 24px;
     color: #333;
   }
 
-  .sidebar p, .sidebar h2 {
+  .sidebar-container p, .sidebar-container h2 {
     font-size: 14px;
     color: #555;
     margin: 10px 0;
   }
 
-  /* Main content (iframe) */
-  .main-content {
-    flex-grow: 1; /* Occupy the remaining space */
+  /* Main iframe container */
+  .iframe-container {
+    flex-grow: 1; /* Take up the remaining width */
+    height: 100%;
+    overflow: hidden; /* No scrollbars */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,12 +43,12 @@
 
   iframe {
     border: none;
-    width: 100%;
-    height: 100%;
+    width: 100%; /* Full width of the iframe container */
+    height: 100%; /* Full height of the iframe container */
   }
 </style>
 
-<div class="sidebar">
+<div class="sidebar-container">
   <h1>pwa-windsurf-stats</h1>
   <p>The aim of this project was to provide rider, event, and results stats from the 2024 PWA Gran Canaria event.</p>
   <h2>Plans for the Future</h2>
@@ -62,7 +65,7 @@
   </p>
 </div>
 
-<div class="main-content">
+<div class="iframe-container">
   <iframe 
       title="POZO Report Wave & Slalom v5 Wave Only" 
       src="https://app.powerbi.com/view?r=eyJrIjoiM2I4MWJhYjQtMTdmMC00OGE2LTk3MWItMzMyNTg0NTg1MTJlIiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" 
