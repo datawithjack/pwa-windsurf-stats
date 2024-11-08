@@ -15,9 +15,9 @@
     height: 90vh; /* Optional: Make it responsive to viewport height */
   }
 
-  /* Hide the title */
-  h1 {
-    display: none;
+  /* Stronger selector to hide the title */
+  .container-lg h1 {
+    display: none !important;
   }
 </style>
 
