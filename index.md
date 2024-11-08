@@ -14,6 +14,11 @@
     width: 100%; /* Adjust iframe width */
     height: 90vh; /* Optional: Make it responsive to viewport height */
   }
+
+  /* Hide the title */
+  h1 {
+    display: none;
+  }
 </style>
 
 <div class="container-lg">
