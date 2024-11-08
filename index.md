@@ -5,7 +5,7 @@
     padding: 0;
     height: 100%;
     display: flex;
-    flex-direction: row; /* Horizontal layout */
+    flex-direction: row; /* Horizontal layout for sidebar and iframe */
     overflow: hidden; /* Prevents scrollbars */
     font-family: Arial, sans-serif;
   }
@@ -33,12 +33,9 @@
 
   /* Main iframe container */
   .iframe-container {
-    flex-grow: 1; /* Take up the remaining width */
-    height: 100%;
+    flex-grow: 1; /* Take up all remaining width */
+    height: 100%; /* Full height of the viewport */
     overflow: hidden; /* No scrollbars */
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   iframe {
