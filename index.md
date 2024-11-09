@@ -53,11 +53,11 @@
 
 <div class="sidebar-container">
   <h1>PWA Windsurf Stats</h1>
-  <p>This project aimed to provide rider, event, and results stats from the 2024 PWA Gran Canaria event.</p>
+  <p>This project aimed to provide rider, event, and result insights from the 2024 PWA Gran Canaria 'Pozo' Windsurf Event.</p>
   <br> 
   <h2>Plans for the Future</h2>
   <p>
-    My plan is to scrape all data for 2025 competitions as they happen and post the results here. I also hope to extend this report to include slalomX, foil slalom, and freestyle competitions.
+    I plan to scrape all data for 2025 PWA competitions as they happen and post the results here. This includes adding pages for SlalomX, Foil Slalom, and Freestyle competitions.
   </p>
   <h2>Nerd Chat</h2>
   <p>
