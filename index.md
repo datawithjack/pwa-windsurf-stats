@@ -52,15 +52,16 @@
 </style>
 
 <div class="sidebar-container">
-  <h1>pwa-windsurf-stats</h1>
-  <p>The aim of this project was to provide rider, event, and results stats from the 2024 PWA Gran Canaria event.</p>
+  <h1>PWA Windsurf Stats</h1>
+  <p>This project aimed to provide rider, event, and results stats from the 2024 PWA Gran Canaria event.</p>
+  <br> 
   <h2>Plans for the Future</h2>
   <p>
     My plan is to scrape all data for 2025 competitions as they happen and post the results here. I also hope to extend this report to include slalomX, foil slalom, and freestyle competitions.
   </p>
   <h2>Nerd Chat</h2>
   <p>
-    This project uses a Power BI report embedded into a GitHub Pages site. Everything here is free and simple to set up, allowing for quick iterations and design updates.
+    I scraped the data from PWA website using python, import this data in to Power BI and then embedded this report into a Github Page site. Whilst not an optimal tech stack, it's free and will alloew  Everything here is free and simple to set up, allowing for quick iterations and design updates.
   </p>
   <h2>About</h2>
   <p>
