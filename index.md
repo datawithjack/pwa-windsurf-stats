@@ -4,19 +4,22 @@
     margin: 0;
     padding: 0;
     height: 100%;
-    display: flex; /* Flexbox for horizontal alignment */
+    width: 100%;
     overflow: hidden; /* Prevents scrollbars */
     font-family: Arial, sans-serif;
   }
 
-  /* Sidebar container */
+  /* Sidebar styling */
   .sidebar-container {
-    flex: 0 0 300px; /* Fixed width of 300px */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px; /* Fixed width for the sidebar */
+    height: 100%; /* Full height of the viewport */
     background-color: #f8f9fa; /* Light background for contrast */
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto; /* Enable scrolling for overflow content */
-    height: 100%; /* Full height of the viewport */
   }
 
   .sidebar-container h1 {
@@ -31,17 +34,20 @@
     margin: 10px 0;
   }
 
-  /* Main iframe container */
+  /* Iframe container */
   .iframe-container {
-    flex: 1; /* Take up the remaining space */
-    height: 100%; /* Full height of the viewport */
-    overflow: hidden; /* Prevent scrollbars */
+    position: absolute;
+    top: 0;
+    left: 300px; /* Position next to the sidebar */
+    right: 0;
+    bottom: 0;
+    overflow: hidden; /* No scrollbars */
   }
 
   iframe {
+    width: 100%;
+    height: 100%;
     border: none;
-    width: 100%; /* Full width of the iframe container */
-    height: 100%; /* Full height of the iframe container */
   }
 </style>
 
