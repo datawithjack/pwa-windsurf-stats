@@ -54,22 +54,22 @@
 <div class="sidebar-container">
   <h1>Gran Canaria PWA Event Insights</h1>
 <p>
-  This project provides detailed insights into rider performance, event highlights, and results from the 2024 PWA Gran Canaria 'Pozo' Windsurf Event. Explore the trends and stats behind one of the most exciting stops on the tour!
+  This dashboard highlights rider performance, event stats, and results from the 2024 PWA Gran Canaria 'Pozo' Windsurf Event. Dive into the data behind one of the tour's most exciting competitions!
 </p>
-<br> 
+<br>
 <h2>Future Plans</h2>
 <p>
-  I plan to scrape and analyze data from all 2025 PWA competitions as they happen, expanding this dashboard to include pages for SlalomX, Foil Slalom, and Freestyle events. Stay tuned for even more detailed insights and interactive reports.
+  I’ll be adding data for all 2025 PWA competitions, including SlalomX, Foil Slalom, and Freestyle events. Check back for fresh insights as the season unfolds.
 </p>
-<br> 
+<br>
 <h2>Nerd Chat</h2>
 <p>
-  This project was built using Python to scrape data from the PWA website, which I then imported into Power BI. The dashboard is embedded on a GitHub Page, offering a simple, cost-effective, and flexible solution for iterative design and updates. While it's not the most sophisticated tech stack, it gets the job done efficiently.
+  I scraped data from the PWA website using Python, loaded it into Power BI, and embedded the dashboard via GitHub Pages. This lightweight approach is cost-effective, simple, and ideal for quick updates.
 </p>
-<br> 
+<br>
 <h2>About Me</h2>
 <p>
-  I'm Jack Andrew, a passionate windsurfer and data analyst currently based in Doha, Qatar. My work at a leading sports academy combines my love for sports and data, creating tools like this to bring performance insights to life. I'm always looking for ways to blend technology and sports to enhance understanding and engagement.
+  I'm Jack Andrew, a keen windsurfer and data analyst based in Doha, Qatar. I combine my passion for sports and data to create tools like this that bring performance insights to life.
 </p>
 
 </div>
