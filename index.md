@@ -76,8 +76,9 @@
 
 <div class="iframe-container">
   <iframe 
-      title="POZO Report Wave & Slalom v5 Wave Only" 
-      src="https://app.powerbi.com/view?r=eyJrIjoiM2I4MWJhYjQtMTdmMC00OGE2LTk3MWItMzMyNTg0NTg1MTJlIiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" 
+      title="POZO Report (Wave)" 
+      src="https://app.powerbi.com/view?r=eyJrIjoiZjEwZmJmMjAtMjAyOS00NzBiLTlmMDEtOGY1OWYzMGY1YjQ2IiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" 
       allowfullscreen="true">
   </iframe>
 </div>
+
