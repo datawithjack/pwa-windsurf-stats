@@ -54,7 +54,7 @@
 <div class="sidebar-container">
   <h1>Gran Canaria PWA Event Insights</h1>
 <p>
-  This dashboard highlights rider performance, event stats, and results from the 2024 PWA Gran Canaria 'Pozo' Windsurf Event. Dive into the data behind one of the tour's most exciting competitions!
+  This dashboard highlights rider performance, event stats, and results from the *2025* PWA Gran Canaria 'Pozo' Windsurf Event. Dive into the data behind one of the tour's most exciting competitions!
 </p>
 <br>
 <h2>Future Plans</h2>
