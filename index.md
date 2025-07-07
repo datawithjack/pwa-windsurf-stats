@@ -76,9 +76,8 @@
 
 <div class="iframe-container">
   <iframe 
-      title="POZO Report (Wave)" 
-      src="https://app.powerbi.com/view?r=eyJrIjoiMDI4MjIyN2YtNGQ2Yy00NzMyLWFkYTAtMzFiYjM2ODk1MjhiIiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9"
- 
+      title="Pozo 2025 Report (Wave)" 
+      src="https://app.powerbi.com/view?r=eyJrIjoiYjQwMGE0ZWMtNmRiOS00NGYxLWE0ZGYtY2ZlMmFiNWEwOTBlIiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9"
       allowfullscreen="true">
   </iframe>
 </div>
