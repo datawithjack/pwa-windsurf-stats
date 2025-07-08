@@ -14,40 +14,34 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1px; /* Narrow sidebar */
-    height: 100%; /* Full height */
-    background-color: #f8f9fa;
-    padding: 10px; /* Reduced padding */
+    width: 0px; /* Fixed width for the sidebar */
+    height: 100%; /* Full height of the viewport */
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 20px;
     box-sizing: border-box;
-    overflow-y: auto;
-  }
-
-  /* Hide any empty <h1> so you don’t get a blank title */
-  .sidebar-container h1:empty {
-    display: none;
+    overflow-y: auto; /* Enable scrolling for overflow content */
   }
 
   .sidebar-container h1 {
     margin: 0 0 10px 0;
-    font-size: 18px;
+    font-size: 24px;
     color: #333;
   }
 
-  .sidebar-container p,
-  .sidebar-container h2 {
-    font-size: 12px;
+  .sidebar-container p, .sidebar-container h2 {
+    font-size: 14px;
     color: #555;
-    margin: 8px 0;
+    margin: 10px 0;
   }
 
   /* Iframe container */
   .iframe-container {
     position: absolute;
     top: 0;
-    left: 80px; /* Matches the sidebar width */
+    left: 300px; /* Position next to the sidebar */
     right: 0;
     bottom: 0;
-    overflow: hidden;
+    overflow: hidden; /* No scrollbars */
   }
 
   iframe {
@@ -56,6 +50,11 @@
     border: none;
   }
 </style>
+
+<div class="sidebar-container">
+  <h1>  </h1>
+
+</div>
 
 
 
