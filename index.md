@@ -24,6 +24,6 @@ layout: default
 
 <iframe
   title="Pozo 2025 Report (Wave)"
-  src="https://app.powerbi.com/view?r=eyJrIjoiMzdlMzE0NWYtODUyYS00YTRlLWI0MjEtNDkyZTY5NTRkMDM2IiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9"
+  src="https://app.powerbi.com/view?r=eyJrIjoiYTQ2ODNkYTQtYjI2YS00MzVlLTkwNWUtZTFkNDlkMDEzZmQ2IiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9"
   allowfullscreen>
 </iframe>
